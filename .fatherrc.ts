@@ -47,7 +47,7 @@ const umd = {
   },
   overridesByEntry: {
     'src/index.ts': {
-      umd: { name: 'fuxi', file: 'index' },
+      umd: { name: 'ufs', file: 'index' },
     },
     'src/style/entry.ts': {
       umd: { file: 'entry' },

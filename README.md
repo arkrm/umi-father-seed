@@ -1,5 +1,13 @@
 <h1 align='center'>@arkrm/umi-father-seed</h1>
 
+[![Build Status](https://travis-ci.org/arkrm/umi-father-seed.svg?branch=master)](https://travis-ci.org/arkrm/umi-father-seed)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/arkrm/umi-father-seed)](https://github.com/arkrm/umi-father-seed/blob/master/package.json)
+![Coveralls github](https://img.shields.io/coveralls/github/arkrm/umi-father-seed)
+[![GitHub issues](https://img.shields.io/github/issues/arkrm/umi-father-seed)](https://github.com/arkrm/umi-father-seed/issues)
+[![GitHub forks](https://img.shields.io/github/forks/arkrm/umi-father-seed)](https://github.com/arkrm/umi-father-seed/network)
+[![GitHub stars](https://img.shields.io/github/stars/arkrm/umi-father-seed)](https://github.com/arkrm/umi-father-seed/stargazers)
+[![GitHub license](https://img.shields.io/github/license/arkrm/umi-father-seed)](https://github.com/arkrm/umi-father-seed/blob/master/License)
+
 > 基于[umi father](https://github.com/umijs/father) 构建的[react](https://reactjs.org/)组件库的示例工程。
 
 [REACT 组件库开发指南](https://www.yuque.com/vdfor/blog/zb667p)
