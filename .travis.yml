@@ -1,0 +1,17 @@
+sudo: false
+language: node_js
+node_js:
+  - 10
+  - 12
+
+install:
+  - yarn --ignore-engines
+
+script:
+  - yarn run test
+
+after_script:
+  - yarn run test:coverage
+
+notifications:
+  email: false

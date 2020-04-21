@@ -1,0 +1,52 @@
+@import '../../style/core/index.less';
+
+.ufs-welcome-wrapper {
+  .mixin-flex-center;
+  flex-direction: column;
+}
+
+.ufs-welcome-tag {
+  font-size: 45px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.ufs-welcome-link {
+  margin-top: 164px;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #121314;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 60%;
+    left: -0.1em;
+    right: -0.1em;
+    bottom: 0;
+    transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+    background: var(--ufs-primary-color);
+  }
+
+  &:hover::after {
+    top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .ufs-welcome-tag {
+    font-size: 22px;
+  }
+
+  .ufs-welcome-link {
+    margin-top: 82px;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #121314;
+    position: relative;
+  }
+}

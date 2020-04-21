@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome Component test render 1`] = `
+<div
+  class="ufs-hello-wrapper"
+>
+  <div
+    class="ufs-hello-tag"
+  >
+    Hello
+  </div>
+  <div
+    class="ufs-hello-link"
+  >
+    ENTER
+  </div>
+</div>
+`;
