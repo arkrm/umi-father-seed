@@ -27,7 +27,7 @@
     "build:cjs": "cross-env BUILD_TYPE=cjs father-build",
     "build:umd": "cross-env BUILD_TYPE=umd node script/build-umd.js",
     "test": "umi-test -u",
-    "test:coverage": "yarn run test --coverage -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
+    "test:coverage": "yarn run test --coverage --report lcovonly && cat ./coverage/lcov.info | coveralls",
     "clean": "node script/clean.js"
   },
   "peerDependencies": {
