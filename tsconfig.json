@@ -18,5 +18,5 @@
     "strictNullChecks": true,
     "target": "esnext"
   },
-  "exclude": ["node_modules", "lib", "es", "dist", "typings", "**/__test__", "test", "setupTests.ts"]
+  "exclude": ["node_modules", "lib", "es", "dist", "typings", "**/__test__", "test", "setupTests.ts", "example"]
 }

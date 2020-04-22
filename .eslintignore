@@ -3,4 +3,5 @@ dist
 es/
 lib/
 coverage/
+example/
 !.eslintrc.js
