@@ -26,7 +26,7 @@
     "build:esm": "cross-env BUILD_TYPE=esm father-build",
     "build:cjs": "cross-env BUILD_TYPE=cjs father-build",
     "build:umd": "cross-env BUILD_TYPE=umd node script/build-umd.js",
-    "test": "umi-test",
+    "test": "umi-test -u",
     "test:coverage": "yarn run test --coverage",
     "clean": "node script/clean.js"
   },

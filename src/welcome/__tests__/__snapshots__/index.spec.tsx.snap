@@ -2,15 +2,15 @@
 
 exports[`Welcome Component test render 1`] = `
 <div
-  class="ufs-hello-wrapper"
+  class="ufs-welcome-wrapper"
 >
   <div
-    class="ufs-hello-tag"
+    class="ufs-welcome-tag"
   >
     Hello
   </div>
   <div
-    class="ufs-hello-link"
+    class="ufs-welcome-link"
   >
     ENTER
   </div>
