@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/arkrm/umi-father-seed.svg?branch=master)](https://travis-ci.org/arkrm/umi-father-seed)
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/arkrm/umi-father-seed)](https://github.com/arkrm/umi-father-seed/blob/master/package.json)
-![Coveralls github](https://img.shields.io/coveralls/github/arkrm/umi-father-seed)
+[![Coveralls github](https://img.shields.io/coveralls/github/arkrm/umi-father-seed)](https://coveralls.io/github/arkrm/umi-father-seed)
 [![GitHub issues](https://img.shields.io/github/issues/arkrm/umi-father-seed)](https://github.com/arkrm/umi-father-seed/issues)
 [![GitHub forks](https://img.shields.io/github/forks/arkrm/umi-father-seed)](https://github.com/arkrm/umi-father-seed/network)
 [![GitHub stars](https://img.shields.io/github/stars/arkrm/umi-father-seed)](https://github.com/arkrm/umi-father-seed/stargazers)
