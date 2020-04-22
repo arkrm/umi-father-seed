@@ -3,11 +3,13 @@
 .ufs-welcome-wrapper {
   .mixin-flex-center;
   flex-direction: column;
+  min-height: 450px;
+  background-color: var(--ufs-normal-bg-color);
 }
 
 .ufs-welcome-tag {
   font-size: 45px;
-  color: #000000;
+  color: var(--ufs-normal-text-color);
   font-weight: 500;
 }
 
@@ -16,8 +18,9 @@
   font-size: 24px;
   font-weight: 400;
   cursor: pointer;
-  color: #121314;
+  color: var(--ufs-normal-text-color);
   position: relative;
+  z-index: 1;
 
   &::after {
     content: '';
@@ -33,20 +36,5 @@
 
   &:hover::after {
     top: 0;
-  }
-}
-
-@media (min-width: 768px) {
-  .ufs-welcome-tag {
-    font-size: 22px;
-  }
-
-  .ufs-welcome-link {
-    margin-top: 82px;
-    font-size: 12px;
-    font-weight: 400;
-    cursor: pointer;
-    color: #121314;
-    position: relative;
   }
 }

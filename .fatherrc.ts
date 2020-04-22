@@ -1,14 +1,13 @@
 const common = {
-  autoprefixer: {
-    flexbox: 'no-2009',
-  },
-  extractCSS: true,
   runtimeHelpers: true,
 };
 
 // 开发环境
 const dev = {
   entry: ['src/index.ts', 'src/style/entry.ts'],
+  autoprefixer: {
+    flexbox: 'no-2009',
+  },
   esm: 'rollup',
   overridesByEntry: {
     'src/index.ts': {
@@ -38,7 +37,10 @@ const cjs = {
 
 const umd = {
   entry: ['src/index.ts', 'src/style/entry.ts'],
-  lessInBabelMode: true,
+  autoprefixer: {
+    flexbox: 'no-2009',
+  },
+  extractCSS: true,
   umd: {
     globals: {
       react: 'React',

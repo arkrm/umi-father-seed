@@ -10,7 +10,7 @@ type IWelcomeProps = {
   onBtnClick?: () => void;
 };
 
-export const prefixCls = 'ufs-hello';
+export const prefixCls = 'ufs-welcome';
 
 const Welcome: FC<IWelcomeProps> = ({ ds, btnText = 'ENTER', onBtnClick }) => {
   const timer: MutableRefObject<any> = useRef(null);
