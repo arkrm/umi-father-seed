@@ -14,7 +14,7 @@
 
 > 基于[umi father](https://github.com/umijs/father) 构建的[react](https://reactjs.org)组件库的示例工程。
 
-[REACT 组件库开发指南](https://www.yuque.com/vdfor/blog/zb667p)
+[REACT 组件库开发指南](https://segmentfault.com/a/1190000022585509)
 
 ## 开始
 
